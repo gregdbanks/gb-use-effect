@@ -255,8 +255,6 @@ const DebouncedComponent = () => {
 export default DebouncedComponent;
 ```
 
-_In this example, the effect updates `debouncedValue` only after the user has stopped typing for 1 second._
-
 ##### Throttling
 
 ```javascript
@@ -351,9 +349,6 @@ export default JqueryComponent;
 ```
 
 ### Best Practices 
-"Some best practices for `useEffect` include keeping effects focused on a single task, using multiple `useEffect` hooks for unrelated logic, leveraging custom hooks for reusable effects, and always including dependency arrays for clarity and prevent future bugs."
-
-Certainly! Let's create two sets of code examples for the given `useEffect` best practices. The first set will show how not to do it (the "before" examples), and the second set will demonstrate the recommended practices (the "after" examples).
 
 ### 1. Keeping Effects Focused on a Single Task
 
